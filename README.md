@@ -1,7 +1,7 @@
 # cicd-si7-approach
 proposed approach for cicd pipelines
 
-##Current CICD Pipeline
+## Current CICD Pipeline
 
 Currently we have clubbed our Continuous Integration and Delivery pipeline as one 
 component where we are checking out the code from VSTS followed by Build, testing and 
@@ -9,7 +9,7 @@ deploying on Azure in a single step:
 
 ![Current CICD](images/current-ci.png)
 
-##Future proposal
+## Future proposal
 
 * Break CI & CD as 2 separate pipelines
 
@@ -27,7 +27,7 @@ deploying on Azure in a single step:
 * Build multi branch pipeline as code so that we don't have to replicate build configurations 
 manually on different branches.
 
-##Proposed CI Builds:
+## Proposed CI Builds:
 
 Here are the enhancements proposed to the future CI: 
 
@@ -42,7 +42,7 @@ Here are the enhancements proposed to the future CI:
     * packaging can lead us towards containerization path in future.
  
  
- ##Proposed CD Builds
+ ## Proposed CD Builds
  
  Here are the enhancements proposed to the future CD: 
  
